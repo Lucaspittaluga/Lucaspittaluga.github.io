@@ -1,0 +1,228 @@
+*{margin: 0 auto;
+padding: 0; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+body{background-color: rgb(252, 214, 205);}
+
+#contenedor{width: 1300px;margin: 0 auto;}
+
+header{background-color: #B7724B; width: 1112px;}
+
+#separado{background-color: #32160E;
+width: 1112px;
+height: 20px;
+font-size: 0px;
+margin: 0 auto;
+padding: 20px 0px 20px 0px;}
+
+#logo {
+    font-size: 0px;
+    overflow: hidden;
+    height: 150px;
+    width: 320px;
+    background-image: url(imagenes/logo/Logo2.png);
+    background-repeat: no-repeat;
+    margin-left: 410px;
+    padding-bottom: 100px;
+}
+
+nav ul{
+    width: 1112px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: #B7724B;
+    padding: 15px 0px;
+}
+
+nav ul li{
+    background-color: #c98b67;
+    list-style-type: none;
+    width: 120px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    height: 30px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    color:#32160E;
+}
+
+a:hover{background-color:#32160E;
+color: #c98b67;
+border-radius: 10px 10px 10px 10px;}
+
+main{background-color: #d6a486;
+width: 1100px;
+border: 6px solid #32160E;
+height: 1300px;}
+
+.prodes{text-align: center;
+text-decoration:underline;
+color: #32160E;
+font-weight: bolder;
+font-size: 33px
+}
+
+.banner{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    background-size: 100% 100%;
+    border-radius: 10px 10px 10px 10px;
+    animation: banner 10s infinite;
+    border: 6px solid #32160E;
+}
+
+@keyframes banner{
+0%, 20% {background-image: url(imagenes/slider/david-holifield-kPxsqUGneXQ-unsplash.jpg);}
+
+25%, 45%{background-image: url(imagenes/slider/kelly-visel-YGY4vdUDZ48-unsplash.jpg);}
+
+50%, 70% {background-image: url(imagenes/slider/mike-meeks-zk-fclJdGas-unsplash.jpg);}
+
+75%, 100%{background-image: url(imagenes/slider/umesh-soni-LDnmyOaA-ew-unsplash.jpg);}
+}
+
+
+#nosotros h2{ text-align: center; 
+    margin-top: 20px;
+    text-decoration:underline;
+    font-size: 33px;
+    color: #32160E;
+}
+
+#nosotros aside{
+    text-align: center;
+    color: #32160E;
+    font-weight: bold;
+    display: inline-block;
+    height: 200px;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: 30px;
+    border: 6px solid #32160E;
+    border-radius: 20px;
+    background-color: #fddfcc;
+}
+
+#nosotros p{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+
+#historia{
+    height: 450px;
+}
+
+#historia h2{
+    text-align: center; 
+    margin-top: 20px;
+    text-decoration:underline;
+    color: #32160E;
+    font-size: 33px;
+}
+
+    #historia figure{width: 400px;
+    float: left;}
+
+#historia figure img{
+    border-radius: 20px;
+    width: 300px;
+    border: 6px solid #32160E;
+    margin-top: 30px;
+    margin-left: 144px;
+}
+
+#historia aside{
+    color: #32160E;
+    font-weight: bold;
+    display: inline-block;
+    height: 310px;
+    width: 410px;
+    margin-left: 140px;
+    margin-top: 30px;
+    border: 6px solid #32160E;
+    border-radius: 20px;
+    background-color: #fddfcc;
+}
+
+#historia p{
+    padding: 3px 7px 7px 7px;
+    font-size: 19px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+#horarios h2{text-align: center; 
+    margin-bottom: 10px;
+    text-decoration:underline;
+    color: #32160E;
+    font-size: 33px;}
+
+
+#horarios p{text-align: center;
+margin-bottom: 10px;
+font-size: 20px;
+color: #32160E;}
+
+#footertext{
+    text-align: center;
+    background-color: #32160E;
+    color: #d6a486;
+    width: 1112px;
+}
+
+#maindos {
+    height: 950px;
+}
+
+#mapa h2{text-align: center; 
+    margin-bottom: 10px;
+    text-decoration:underline;
+    color: #32160E;
+    font-size: 33px;}
+
+    #mapa aside{
+        margin-left: 50px;
+        border: 5px solid #32160E;
+        width: 1000px;
+        height: 500px;
+    }
+
+    #contacto h2{
+        text-align: center;
+        color: #32160E;
+        text-decoration: underline;
+
+    }
+    #contacto article{
+        width: 800px;
+        height: 180px;
+        background-color: #fddfcc;
+        border:#32160E solid;
+        border-radius: 7px 7px 7px 7px;
+        margin-top: 150px;
+    }
+
+
+#contacto p{
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+#contacto p a{
+    text-decoration: none;
+    color: #32160E;
+    background-color: #fddfcc;
+}
+
